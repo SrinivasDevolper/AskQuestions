@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.question-cont {
+    background-color: #7cfcab;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.heading {
+    color: #41644A;
+    font-size: 28px;
+    font-family: "Lobster";
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.card-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.first-card {
+    background-color: #FFF4F4;
+    width: 400px;
+    padding: 20px;
+    border-radius: 6px;
+    border: 2px solid #EEEEEE;
+}
+
+.show {
+    display: block;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-heading {
+    color: #285430;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.icon-vis {
+    font-size: 24px;
+    color: #16FF00;
+    cursor: pointer;
+    display: inline;
+}
+
+.icon-visib {
+    display: none;
+}
+
+.icon-vis:hover {
+    color: #41644A;
+}
+
+
+.cont-dis {
+    display: none;
+}
+
+.hori {
+    margin-top: 20px;
+    color: #AACB73;
+    margin-bottom: 14px;
+}
+
+.icon-dis {
+    font-size: 24px;
+    color: #16FF00;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-disib {
+    display: block;
+    margin-top: 12px;
+}
+
+.para {
+    color: #497174;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
